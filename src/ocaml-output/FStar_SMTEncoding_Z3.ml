@@ -104,7 +104,7 @@ let (__proj__Mkquery_log__item__close_log : query_log -> unit -> unit) =
         close_log
 let (_z3version_checked : Prims.bool FStar_Compiler_Effect.ref) =
   FStar_Compiler_Util.mk_ref false
-let (_z3version_expected : Prims.string) = "Z3 version 4.8.5"
+let (_z3version_expected : Prims.string) = "Z3 version 4.8.14"
 let (_z3url : Prims.string) =
   "https://github.com/FStarLang/binaries/tree/master/z3-tested"
 let (parse_z3_version_lines :
